@@ -193,6 +193,30 @@
     <Compile Include="Migrations\201808051905191_DBChange.Designer.cs">
       <DependentUpon>201808051905191_DBChange.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808052202064_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201808052202064_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201808052202064_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808052204234_UpdateMembershipType.cs" />
+    <Compile Include="Migrations\201808052204234_UpdateMembershipType.Designer.cs">
+      <DependentUpon>201808052204234_UpdateMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808052218551_AddColumnsToMovie.cs" />
+    <Compile Include="Migrations\201808052218551_AddColumnsToMovie.Designer.cs">
+      <DependentUpon>201808052218551_AddColumnsToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808052219559_PopulateGenre.cs" />
+    <Compile Include="Migrations\201808052219559_PopulateGenre.Designer.cs">
+      <DependentUpon>201808052219559_PopulateGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808052251214_PopulateGenre2.cs" />
+    <Compile Include="Migrations\201808052251214_PopulateGenre2.Designer.cs">
+      <DependentUpon>201808052251214_PopulateGenre2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808052258179_AddForeignKeyMovies.cs" />
+    <Compile Include="Migrations\201808052258179_AddForeignKeyMovies.Designer.cs">
+      <DependentUpon>201808052258179_AddForeignKeyMovies.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDBContext.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
@@ -287,6 +311,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808051905191_DBChange.resx">
       <DependentUpon>201808051905191_DBChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808052202064_AddNameToMembershipType.resx">
+      <DependentUpon>201808052202064_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808052204234_UpdateMembershipType.resx">
+      <DependentUpon>201808052204234_UpdateMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808052218551_AddColumnsToMovie.resx">
+      <DependentUpon>201808052218551_AddColumnsToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808052219559_PopulateGenre.resx">
+      <DependentUpon>201808052219559_PopulateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808052251214_PopulateGenre2.resx">
+      <DependentUpon>201808052251214_PopulateGenre2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808052258179_AddForeignKeyMovies.resx">
+      <DependentUpon>201808052258179_AddForeignKeyMovies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
